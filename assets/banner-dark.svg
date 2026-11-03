@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Archit Singh</title>
+  <desc id="d">Software Engineer at Goldman Sachs building high-throughput Java services and Kafka pipelines. Animated banner of messages flowing through partitions.</desc>
+  <style>
+    .m { animation-name: flow; animation-timing-function: linear; animation-iteration-count: infinite; }
+    @keyframes flow { from { transform: translateX(-60px); } to { transform: translateX(1220px); } }
+    @media (prefers-reduced-motion: reduce) { .m { animation: none; } }
+    .name { font: 700 64px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -2px; fill: #e8e6e1; }
+    .sub { font: 400 23px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #9aa0a8; }
+    .sub b { font-weight: 600; fill: #e8e6e1; }
+    .eyebrow { font: 500 17px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #9aa0a8; letter-spacing: 0.5px; }
+    .lbl { font: 400 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #9aa0a8; opacity: 0.8; }
+    .pulse { animation: pulse 2s ease-out infinite; transform-origin: 63px 83px; }
+    @keyframes pulse { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x="0.5" y="0.5" width="1199" height="299" rx="16"/></clipPath>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0d0f12" stop-opacity="1"/>
+      <stop offset="0.42" stop-color="#0d0f12" stop-opacity="0.92"/>
+      <stop offset="0.7" stop-color="#0d0f12" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0d0f12"/>
+    <line x1="0" y1="46.0" x2="1200" y2="46.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="72.0" x2="1200" y2="72.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="98.0" x2="1200" y2="98.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="124.0" x2="1200" y2="124.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="150.0" x2="1200" y2="150.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="176.0" x2="1200" y2="176.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="202.0" x2="1200" y2="202.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="228.0" x2="1200" y2="228.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <line x1="0" y1="254.0" x2="1200" y2="254.0" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <rect class="m" x="0" y="43.5" width="13.6" height="5" rx="2.5" fill="#9aa0a8" opacity="0.27" style="animation-duration:12.14s;animation-delay:-0.88s"/><rect class="m" x="0" y="43.5" width="18.8" height="5" rx="2.5" fill="#9aa0a8" opacity="0.19" style="animation-duration:9.81s;animation-delay:-4.98s"/><rect class="m" x="0" y="43.5" width="20.4" height="5" rx="2.5" fill="#9aa0a8" opacity="0.25" style="animation-duration:9.85s;animation-delay:-0.89s"/><rect class="m" x="0" y="69.5" width="13.0" height="5" rx="2.5" fill="#9aa0a8" opacity="0.34" style="animation-duration:13.73s;animation-delay:-8.61s"/><rect class="m" x="0" y="69.5" width="23.9" height="5" rx="2.5" fill="#9aa0a8" opacity="0.19" style="animation-duration:14.62s;animation-delay:-14.28s"/><rect class="m" x="0" y="69.5" width="30.6" height="5" rx="2.5" fill="#9aa0a8" opacity="0.20" style="animation-duration:14.07s;animation-delay:-2.03s"/><rect class="m" x="0" y="95.5" width="29.6" height="5" rx="2.5" fill="#f5a524" opacity="0.86" style="animation-duration:10.19s;animation-delay:-5.93s"/><rect class="m" x="0" y="95.5" width="18.9" height="5" rx="2.5" fill="#f5a524" opacity="0.62" style="animation-duration:11.62s;animation-delay:-0.73s"/><rect class="m" x="0" y="95.5" width="14.9" height="5" rx="2.5" fill="#f5a524" opacity="0.73" style="animation-duration:12.14s;animation-delay:-5.19s"/><rect class="m" x="0" y="95.5" width="24.1" height="5" rx="2.5" fill="#f5a524" opacity="0.92" style="animation-duration:11.26s;animation-delay:-3.37s"/><rect class="m" x="0" y="95.5" width="26.8" height="5" rx="2.5" fill="#f5a524" opacity="0.81" style="animation-duration:10.44s;animation-delay:-6.00s"/><rect class="m" x="0" y="121.5" width="27.5" height="5" rx="2.5" fill="#9aa0a8" opacity="0.20" style="animation-duration:14.38s;animation-delay:-14.10s"/><rect class="m" x="0" y="121.5" width="20.0" height="5" rx="2.5" fill="#9aa0a8" opacity="0.26" style="animation-duration:16.87s;animation-delay:-2.56s"/><rect class="m" x="0" y="121.5" width="10.9" height="5" rx="2.5" fill="#9aa0a8" opacity="0.28" style="animation-duration:16.39s;animation-delay:-12.53s"/><rect class="m" x="0" y="147.5" width="17.5" height="5" rx="2.5" fill="#f5a524" opacity="0.83" style="animation-duration:16.54s;animation-delay:-9.83s"/><rect class="m" x="0" y="147.5" width="20.9" height="5" rx="2.5" fill="#f5a524" opacity="0.79" style="animation-duration:17.31s;animation-delay:-16.35s"/><rect class="m" x="0" y="147.5" width="25.9" height="5" rx="2.5" fill="#f5a524" opacity="0.86" style="animation-duration:13.18s;animation-delay:-9.25s"/><rect class="m" x="0" y="147.5" width="33.8" height="5" rx="2.5" fill="#f5a524" opacity="0.75" style="animation-duration:17.21s;animation-delay:-4.90s"/><rect class="m" x="0" y="147.5" width="26.0" height="5" rx="2.5" fill="#f5a524" opacity="0.67" style="animation-duration:12.98s;animation-delay:-5.99s"/><rect class="m" x="0" y="173.5" width="11.4" height="5" rx="2.5" fill="#9aa0a8" opacity="0.22" style="animation-duration:10.99s;animation-delay:-1.42s"/><rect class="m" x="0" y="173.5" width="19.4" height="5" rx="2.5" fill="#9aa0a8" opacity="0.26" style="animation-duration:11.34s;animation-delay:-0.91s"/><rect class="m" x="0" y="173.5" width="23.2" height="5" rx="2.5" fill="#9aa0a8" opacity="0.33" style="animation-duration:11.38s;animation-delay:-9.33s"/><rect class="m" x="0" y="199.5" width="20.0" height="5" rx="2.5" fill="#f5a524" opacity="0.98" style="animation-duration:10.68s;animation-delay:-9.44s"/><rect class="m" x="0" y="199.5" width="13.6" height="5" rx="2.5" fill="#f5a524" opacity="0.69" style="animation-duration:9.98s;animation-delay:-2.32s"/><rect class="m" x="0" y="199.5" width="21.6" height="5" rx="2.5" fill="#f5a524" opacity="0.60" style="animation-duration:11.56s;animation-delay:-3.04s"/><rect class="m" x="0" y="199.5" width="20.1" height="5" rx="2.5" fill="#f5a524" opacity="0.98" style="animation-duration:10.72s;animation-delay:-6.07s"/><rect class="m" x="0" y="199.5" width="26.6" height="5" rx="2.5" fill="#f5a524" opacity="0.87" style="animation-duration:11.28s;animation-delay:-6.97s"/><rect class="m" x="0" y="225.5" width="31.6" height="5" rx="2.5" fill="#9aa0a8" opacity="0.32" style="animation-duration:10.53s;animation-delay:-9.21s"/><rect class="m" x="0" y="225.5" width="19.4" height="5" rx="2.5" fill="#9aa0a8" opacity="0.29" style="animation-duration:9.28s;animation-delay:-0.96s"/><rect class="m" x="0" y="225.5" width="11.5" height="5" rx="2.5" fill="#9aa0a8" opacity="0.21" style="animation-duration:8.19s;animation-delay:-1.71s"/><rect class="m" x="0" y="251.5" width="11.3" height="5" rx="2.5" fill="#9aa0a8" opacity="0.20" style="animation-duration:9.67s;animation-delay:-1.46s"/><rect class="m" x="0" y="251.5" width="18.7" height="5" rx="2.5" fill="#9aa0a8" opacity="0.28" style="animation-duration:9.77s;animation-delay:-8.55s"/><rect class="m" x="0" y="251.5" width="13.6" height="5" rx="2.5" fill="#9aa0a8" opacity="0.24" style="animation-duration:10.68s;animation-delay:-3.71s"/>
+    <text x="1172" y="90.0" text-anchor="end" class="lbl">p0 · orders</text><text x="1172" y="142.0" text-anchor="end" class="lbl">p1 · executions</text><text x="1172" y="194.0" text-anchor="end" class="lbl">p2 · clearing</text>
+    <rect width="1200" height="300" fill="url(#fade)"/>
+    <circle class="pulse" cx="63" cy="83" r="5" fill="#f5a524"/>
+    <circle cx="63" cy="83" r="5" fill="#f5a524"/>
+    <text x="80" y="89" class="eyebrow">Software Engineer · Goldman Sachs · Bengaluru</text>
+    <text x="54" y="160" class="name">Archit Singh</text>
+    <text x="56" y="205" class="sub">I build high-throughput <tspan font-weight="600" fill="#e8e6e1">Java</tspan> services and <tspan font-weight="600" fill="#e8e6e1">Kafka</tspan> pipelines</text>
+    <text x="56" y="237" class="sub">that carry trades through orders, executions and clearing.</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#262b33"/>
+</svg>
