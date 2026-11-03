@@ -14,7 +14,7 @@ THEMES = {
     "dark": dict(bg="#0d0f12", line="#262b33", text="#e8e6e1", muted="#9aa0a8",
                  accent="#f5a524", lane="rgba(255,255,255,0.06)", dim="#9aa0a8"),
     "light": dict(bg="#f7f5f0", line="#e1ddd2", text="#16181c", muted="#5b616b",
-                  accent="#b45f00", lane="rgba(0,0,0,0.06)", dim="#8a8f98"),
+                  accent="#9a5000", lane="rgba(0,0,0,0.06)", dim="#8a8f98"),
 }
 
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"

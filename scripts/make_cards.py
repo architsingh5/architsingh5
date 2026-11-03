@@ -22,7 +22,7 @@ THEMES = {
     "dark": dict(bg="#0d0f12", surface="#171b21", line="#262b33", text="#e8e6e1", muted="#9aa0a8",
                  accent="#f5a524", basic="#6b7280", easy="#199e70", med="#3987e5", hard="#e66767"),
     "light": dict(bg="#f7f5f0", surface="#ffffff", line="#e1ddd2", text="#16181c", muted="#5b616b",
-                  accent="#b45f00", basic="#8a8f98", easy="#1baf7a", med="#2a78d6", hard="#e34948"),
+                  accent="#9a5000", basic="#8a8f98", easy="#1baf7a", med="#2a78d6", hard="#e34948"),
 }
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
