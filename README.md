@@ -15,7 +15,7 @@
 
 ### What I work on
 
-I'm a backend engineer at **Goldman Sachs** (since 2023) working on systems that carry trades through orders, executions and clearing.
+I'm a backend engineer at **Goldman Sachs** (since 2023), on the **Listed Clearing** team in Middle Office, working on systems that carry trades through orders, executions and clearing.
 
 - **Throughput.** Striped ICE EU and NYMEX trade ingestion across three load-balanced hosts, cutting primary-host load by **54%** and **64%**.
 - **Pipelines.** Java/Kafka data-hydration pipelines that feed a GCP-backed OLTP store and a Snowflake lakehouse, with a transactional outbox for reliable delivery between services.
