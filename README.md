@@ -1,7 +1,7 @@
 <a href="https://architsingh5.github.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="Archit Singh: Software Engineer at Goldman Sachs building high-throughput Java services and Kafka pipelines" src="assets/banner-light.svg" width="100%">
+    <img alt="Archit Singh: SDE 2 Associate at Goldman Sachs, building high-throughput Java services and Kafka pipelines" src="assets/banner-light.svg" width="100%">
   </picture>
 </a>
 
@@ -15,13 +15,23 @@
 
 ### What I work on
 
-I'm a backend engineer at **Goldman Sachs** (since 2023), on the **Listed Clearing** team in Middle Office, working on systems that carry trades through orders, executions and clearing.
+I'm an **SDE 2 Associate** at **Goldman Sachs**, with 3.5+ years across two teams.
 
-- **Throughput.** Striped ICE EU and NYMEX trade ingestion across three load-balanced hosts, cutting primary-host load by **54%** and **64%**.
-- **Pipelines.** Java/Kafka data-hydration pipelines that feed a GCP-backed OLTP store and a Snowflake lakehouse, with a transactional outbox for reliable delivery between services.
-- **Platform.** Moved firmwide mapping rules from static definitions into a database, cutting rule-change turnaround from **7 days to 1**. Profiled query paths for **75%** faster dashboards.
+**Listed Clearing · GBM Public (Middle Office)** · May 2025 – present
 
-The [portfolio](https://architsingh5.github.io) shows a trade moving through that pipeline as you scroll.
+- **Ingestion.** Striped ICE EU and NYMEX trade ingestion across three load-balanced hosts, cutting primary-host load by **54%** (ICE EU) and **64%** (NYMEX), with **zero** peak-load incidents since the rollout.
+- **Pipelines.** Java/Kafka data-hydration pipelines covering **3 data models** (external trades, internal executions, cleared trades) that feed a GCP-backed OLTP store and a Snowflake lakehouse, with DB2 controls and reconciliation and a transactional outbox.
+- **Reporting.** Broker reports for Korea and South Africa over TIBCO RV that reconcile executions against client orders. 4 daily Operations reports are now fully automated, eliminating **~30 min/day** (~2.5 hrs/week) of manual work.
+- **Rollout.** Delivered the order-channel attribute end to end across **3 systems** (order capture → execution → clearing), rolled out across all markets.
+
+**Interest Rate Risk Analytics · Corporate Treasury** · Jul 2023 – Apr 2025
+
+- Moved firmwide mapping rules from static definitions to a database, cutting rule-change turnaround from **7 days to 1**.
+- Profiled query execution paths for **75%** faster dashboard responses, and added pre-rollout checks for rule changes.
+- Built a sign-off workflow and firmwide distribution pipelines that shortened the reporting cycle from **T+20 to T+12**.
+- Built a balance-sheet mapping engine with REST APIs, cutting end-to-end runtime by **12%**.
+
+The [portfolio](https://architsingh5.github.io) shows a trade moving through the Listed Clearing pipeline as you scroll.
 
 ### Things I've built
 

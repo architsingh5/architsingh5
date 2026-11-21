@@ -57,7 +57,7 @@ def build(t):
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
   <title id="t">Archit Singh</title>
-  <desc id="d">Software Engineer at Goldman Sachs building high-throughput Java services and Kafka pipelines. Animated banner of messages flowing through partitions.</desc>
+  <desc id="d">SDE 2 Associate at Goldman Sachs, building high-throughput Java services and Kafka pipelines. Animated banner of messages flowing through partitions.</desc>
   <style>
     .m {{ animation-name: flow; animation-timing-function: linear; animation-iteration-count: infinite; }}
     @keyframes flow {{ from {{ transform: translateX(-60px); }} to {{ transform: translateX({W + 20}px); }} }}
@@ -87,7 +87,7 @@ def build(t):
     <rect width="{W}" height="{H}" fill="url(#fade)"/>
     <circle class="pulse" cx="63" cy="83" r="5" fill="{t["accent"]}"/>
     <circle cx="63" cy="83" r="5" fill="{t["accent"]}"/>
-    <text x="80" y="89" class="eyebrow">Software Engineer · Goldman Sachs · Bengaluru</text>
+    <text x="80" y="89" class="eyebrow">SDE 2 Associate · Goldman Sachs · Bengaluru</text>
     <text x="54" y="160" class="name">Archit Singh</text>
     <text x="56" y="205" class="sub">I build high-throughput <tspan font-weight="600" fill="{t["text"]}">Java</tspan> services and <tspan font-weight="600" fill="{t["text"]}">Kafka</tspan> pipelines</text>
     <text x="56" y="237" class="sub">that carry trades through orders, executions and clearing.</text>
