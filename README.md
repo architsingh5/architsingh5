@@ -1,7 +1,7 @@
 <a href="https://architsingh5.github.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="Archit Singh: SDE 2 Associate at Goldman Sachs, building high-throughput Java services and Kafka pipelines" src="assets/banner-light.svg" width="100%">
+    <img alt="Archit Singh: backend software engineer building high-throughput, reliable systems with Java and Kafka" src="assets/banner-light.svg" width="100%">
   </picture>
 </a>
 
@@ -15,7 +15,7 @@
 
 ### What I work on
 
-I'm an **SDE 2 Associate** at **Goldman Sachs**, with 3.5+ years across two teams.
+For the last 3.5+ years I've built these systems at **Goldman Sachs**, where I'm an **SDE 2 Associate**. Here's that work, by team:
 
 **Listed Clearing · GBM Public (Middle Office)** · May 2025 – present
 
